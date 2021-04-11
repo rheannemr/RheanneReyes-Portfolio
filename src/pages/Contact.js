@@ -6,7 +6,6 @@ import Header from "../components/Header";
 import Navbar from "../components/Navbar";
 import { Form, Button } from "react-bootstrap";
 import "./style.css";
-// import ScrollAnimation from 'react-animate-on-scroll';
 
 function Contact() {
     return (
@@ -36,13 +35,22 @@ function Contact() {
                     <Form.Group controlId="formLastName">
                         <Form.Control type="name" placeholder="Last Name" />
                     </Form.Group>
+                    {['radio'].map((type) => (
+                        <div key={`inline-${type}`} className="mb-3">
+                            <Form.Check inline label="she/her" type={type} id={`inline-${type}-1`} />
+                            <Form.Check inline label="he/him" type={type} id={`inline-${type}-2`} />
+                            <Form.Check inline label="they/them" type={type} id={`inline-${type}-3`} />
+                            <Form.Check inline label="she/they" type={type} id={`inline-${type}-4`} />
+                            <Form.Check inline label="he/they" type={type} id={`inline-${type}-5`} />
+                        </div>
+                    ))}
                     <Form.Group controlId="formGroupEmail">
-                        <Form.Control type="email" placeholder="Enter Email" />
+                        <Form.Control type="email" placeholder="Email Address" />
                     </Form.Group>
                     <Form.Group controlId="formMessage">
                         <Form.Control as="textarea" placeholder="Message" rows={5} />
                     </Form.Group>
-                    <Button variant="primary" type="submit" class="btn btn-outline-dark btn-lg">
+                    <Button variant="dark" type="submit">
                         Submit
                     </Button>
                 </Form>
