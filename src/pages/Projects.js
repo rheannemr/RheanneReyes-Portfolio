@@ -2,11 +2,11 @@ import React from "react";
 import Hero from "../components/Hero";
 import Container from "../components/Container";
 import Row from "../components/Row";
-import Col from "../components/Col";
+import Header from "../components/Header"
 import Navbar from "../components/Navbar"
 import Project from "../components/Project"
 import "./style.css";
-import ScrollAnimation from 'react-animate-on-scroll';
+// import ScrollAnimation from 'react-animate-on-scroll';
 
 function Projects() {
     return (
@@ -23,11 +23,11 @@ function Projects() {
             <Navbar />
             <Container style={{ marginTop: 30 }}>
                 <Row>
-                    <Col size="md-12">
-                        <ScrollAnimation animateIn="ease-in-out">
-                            <h1 className="aboutheader">PROJECTS</h1>
-                        </ScrollAnimation>
-                    </Col>
+                    <Header>
+                        <h1 className="aboutheader">
+                            PROJECTS
+                        </h1>
+                    </Header>
                 </Row>
             </Container>
             <Project />
