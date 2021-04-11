@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
-$body-color: blue;
-$poppins: "Poppins", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Train+One&display=swap');
+
 body {
   margin: 0;
   padding: 0;
@@ -8,12 +7,11 @@ body {
   justify-content: center;
 }
 .hero {
-  background: #133A53 url(https://ctwebdesignshop.com/wp-content/uploads/2019/01/homepage-hero.jpg);
+  background: #ffffff url(https://ctwebdesignshop.com/wp-content/uploads/2019/01/homepage-hero.jpg);
   position: relative;
   display: flex;
   align-items: center;
   justify-content: left;
-  font-family: $poppins;
   height: 100vh;
   width: 100vw;
 }
@@ -23,13 +21,9 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  background: rgb(19, 58, 83);
-  background: linear-gradient(
-    220deg,
-    /* rgba(25, 26, 56, 0.85) 0%, */
-    /* rgba(165, 160, 161, 0.85) 100% */
-  );
+  background: rgb(114, 130, 140);
 }
+
 .content {
   display: flex;
   flex-direction: column;
@@ -41,14 +35,15 @@ body {
   animation: reveal 1s ease-in-out forwards;
 }
 h1 {
-  font-family: 'Faster One', cursive;
+  font-family: 'Train One', cursive;
   font-size: 90px;
   line-height: 0.9;
   margin-bottom: 0px;
-  color: rgb(255, 255, 255))
+  text-emphasis-color: white;
 }
 .about-p {
   font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
 }
 .aboutheader {
   font-size: 30px;
@@ -56,34 +51,10 @@ h1 {
 }
 p {
   font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
   color: rgb(0, 0, 0);
 }
-&:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #ff6700;
-  z-index: 3;
-  animation: reveal 0.5s reverse forwards;
-  animation-delay: 0.5s;
-  transform-origin: ;
-}
-&:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #133a53;
-  z-index: 2;
-  animation: reveal 0.7s reverse forwards;
-  animation-delay: 0.7s;
-  transform-origin: left;
-}
+
 @keyframes reveal {
   0% {
     transform: scaleX(0);

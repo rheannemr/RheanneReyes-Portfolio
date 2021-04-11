@@ -3,7 +3,6 @@ import { HashRouter, Route } from "react-router-dom";
 import AboutMe from "./pages/AboutMe";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
-import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
 
@@ -11,7 +10,6 @@ function App() {
   return (
     <HashRouter basename='/'>
       <div>
-        <Navbar />
         <Wrapper>
           <Route exact path="/" component={AboutMe} />
           <Route exact path="/aboutme" component={AboutMe} />
