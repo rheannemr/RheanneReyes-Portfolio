@@ -12,7 +12,7 @@ function AboutMe() {
   return (
     <div>
       <Hero>
-        <div class="overlay">
+        <div class="heroheader">
           <div class="content">
             <p>Welcome! My name is</p>
             <h1>RHEANNE REYES.</h1>

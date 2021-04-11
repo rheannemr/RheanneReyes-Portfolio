@@ -4,6 +4,7 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 import Navbar from "../components/Navbar"
+import Project from "../components/Project"
 import "./style.css";
 import ScrollAnimation from 'react-animate-on-scroll';
 
@@ -11,7 +12,7 @@ function Projects() {
     return (
         <div>
             <Hero>
-                <div class="overlay">
+                <div class="heroheader">
                     <div class="content">
                         <p>Welcome! My name is</p>
                         <h1>RHEANNE REYES.</h1>
@@ -24,11 +25,12 @@ function Projects() {
                 <Row>
                     <Col size="md-12">
                         <ScrollAnimation animateIn="ease-in-out">
-                            <h1 className="aboutheader">ABOUT</h1>
+                            <h1 className="aboutheader">PROJECTS</h1>
                         </ScrollAnimation>
                     </Col>
                 </Row>
             </Container>
+            <Project />
         </div>
     )
 }

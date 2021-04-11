@@ -7,7 +7,7 @@ body {
   justify-content: center;
 }
 .hero {
-  background: #ffffff url(https://ctwebdesignshop.com/wp-content/uploads/2019/01/homepage-hero.jpg);
+  background: rgb(240, 211, 115);
   position: relative;
   display: flex;
   align-items: center;
@@ -16,7 +16,7 @@ body {
   width: 100vw;
 }
 
-.overlay {
+.heroheader {
   position: absolute;
   top: 0;
   left: 0;
@@ -44,7 +44,7 @@ h1 {
 }
 
 .about-p {
-  font-size: 20px;
+  font-size: 15px;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -59,11 +59,41 @@ h1 {
 }
 
 p {
-  font-size: 24px;
+  font-size: 15px;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: rgb(0, 0, 0);
 }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #1d0b0b;
+}
+
+/* .photo:hover .overlay {
+  opacity: 1;
+} */
+
+.text {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
 
 @keyframes reveal {
   0% {

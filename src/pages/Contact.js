@@ -11,7 +11,7 @@ function Contact() {
     return (
         <div>
             <Hero>
-                <div class="overlay">
+                <div class="heroheader">
                     <div class="content">
                         <p>Welcome! My name is</p>
                         <h1>RHEANNE REYES.</h1>
@@ -24,7 +24,7 @@ function Contact() {
                 <Row>
                     <Col size="md-12">
                         <ScrollAnimation animateIn="ease-in-out">
-                            <h1 className="aboutheader">ABOUT</h1>
+                            <h1 className="aboutheader">CONTACT ME</h1>
                         </ScrollAnimation>
                     </Col>
                 </Row>
