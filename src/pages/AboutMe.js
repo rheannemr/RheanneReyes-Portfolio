@@ -6,8 +6,7 @@ import Header from "../components/Header";
 import Navbar from "../components/Navbar"
 import { Col } from "react-bootstrap";
 import "./style.css";
-// import ScrollAnimation from 'react-animate-on-scroll';
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function AboutMe() {
   return (
@@ -18,9 +17,9 @@ function AboutMe() {
             <p>Welcome! My name is</p>
             <h1>RHEANNE REYES.</h1>
             <p>I am a Full Stack Web Developer.</p>
-            <Link to="/aboutme">
-              <button type="button" class="btn btn-outline-dark btn-lg">Let's Get Started</button>
-            </Link>
+            {/* <Link to="/aboutme"> */}
+              {/* <button type="button" class="btn btn-outline-dark btn-lg">Let's Get Started</button> */}
+            {/* </Link> */}
           </div>
         </div>
       </Hero>

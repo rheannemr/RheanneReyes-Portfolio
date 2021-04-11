@@ -1,20 +1,24 @@
 import React from "react";
 import { Card } from "react-bootstrap";
+import "./style.css"
 
 function Project(props) {
     return (
-        <Card style={{ width: "20rem" }}>
+        <Card style={{ width: '18rem' }}>
             <Card.Body>
-                <Card.Title>{props.children}</Card.Title>
-                <div class="overlay">
-                    <div class="text">
-                        <Card.Link href={props.href} target='_blank'>Github</Card.Link>
-                        <Card.Link href={props.link} target='_blank'>Deployed Application</Card.Link>
+            <Card.Title className="text-center">{props.children}</Card.Title>
+                <div class="photo">
+                    <Card.Img src={props.image}></Card.Img>
+                    <div class="overlay">
+                        <div class="text">
+                            <Card.Link href={props.href} class="app-link" target='_blank'>Github Repository</Card.Link><br />
+                            <Card.Link href={props.link} class="app-link" target='_blank'>Deployed Application</Card.Link>
+                        </div>
                     </div>
                 </div>
+                <br />
                 <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                    {props.text}
                 </Card.Text>
             </Card.Body>
         </Card>
