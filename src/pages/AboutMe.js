@@ -19,12 +19,12 @@ function AboutMe() {
       <Container style={{ marginTop: 30 }}>
         <Row>
           <Col size="md-12">
-            <h1>ABOUT</h1>
+            <h1 className="aboutheader">ABOUT</h1>
           </Col>
         </Row>
         <Row>
           <Col size="md-12">
-            <p>
+            <p className="about-p">
               Hey there! I'm Rheanne Reyes. 22 years old and based in Eugene, OR. I am student enrolled in University of Oregon's
               full stack web development coding bootcamp.
               Through the bootcamp, I've developed skills in numerous languages such as HTML, CSS, JavaScript,
@@ -32,14 +32,6 @@ function AboutMe() {
               I've learned that I have a passion for creating clean, simple, and user-friendly applications.
 
               Thanks for being here! Shoot me a message and let's collab!
-            </p>
-            <p>
-              Phasellus at rutrum nisl. Praesent sed massa ut ipsum bibendum porttitor. Sed
-              malesuada molestie velit ac viverra. Quisque a ullamcorper purus. Curabitur luctus mi
-              ac mi hendrerit semper. Nulla tincidunt accumsan lobortis. Mauris convallis sapien non
-              nibh porta accumsan. Nunc volutpat tempus porttitor. Nunc congue dictum egestas.
-              Aliquam blandit mi eu urna scelerisque, vitae volutpat ligula ultricies. Maecenas vel
-              porta augue. Fusce mauris ex, dignissim et lacinia ut, tempus eget nibh.
             </p>
           </Col>
         </Row>
