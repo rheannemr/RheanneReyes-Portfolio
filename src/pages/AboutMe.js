@@ -17,7 +17,7 @@ function AboutMe() {
             <p>Welcome! My name is</p>
             <h1>RHEANNE REYES.</h1>
             <p>I am a Full Stack Web Developer.</p>
-            <Link to="/footer">
+            <Link to="/aboutme">
             <button type="button" class="btn btn-outline-dark btn-lg">Let's Get Started</button>
             </Link>
           </div>

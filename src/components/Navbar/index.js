@@ -1,44 +1,24 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import "./style.css";
+import { Nav } from "react-bootstrap";
 
-// Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div>
-        <ul className="navbar-nav">
-          <li className="nav-item">
-            <Link
-              to="/"
-              className={
-                window.location.pathname === "/" || window.location.pathname === "/aboutme"
-                  ? "nav-link active"
-                  : "nav-link"
-              }
-            >
-              About
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="/Projects"
-              className={window.location.pathname === "/Projects" ? "nav-link active" : "nav-link"}
-            >
-              Projects
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="/contact"
-              className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
-            >
-              Contact
-            </Link>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <Nav className="justify-content-end" activeKey="/home">
+    <Nav.Item>
+      <Nav.Link href="#/aboutme">About</Nav.Link>
+    </Nav.Item>
+    <Nav.Item>
+      <Nav.Link href="#/projects">Projects</Nav.Link>
+    </Nav.Item>
+    <Nav.Item>
+      <Nav.Link href="#/contact">Contact</Nav.Link>
+    </Nav.Item>
+    <Nav.Item>
+      <Nav.Link eventKey="disabled" disabled>
+        Rheanne Reyes
+      </Nav.Link>
+    </Nav.Item>
+  </Nav>
   );
 }
 

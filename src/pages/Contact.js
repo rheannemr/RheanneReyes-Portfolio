@@ -3,7 +3,8 @@ import Hero from "../components/Hero";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
-import Navbar from "../components/Navbar"
+import Navbar from "../components/Navbar";
+import { Form } from "react-bootstrap";
 import "./style.css";
 import ScrollAnimation from 'react-animate-on-scroll';
 
@@ -24,10 +25,20 @@ function Contact() {
                 <Row>
                     <Col size="md-12">
                         <ScrollAnimation animateIn="ease-in-out">
-                            <h1 className="aboutheader">CONTACT ME</h1>
+                            <h1 className="aboutheader">LET'S TALK</h1>
                         </ScrollAnimation>
                     </Col>
                 </Row>
+                <Form>
+                    <Form.Row>
+                        
+                            <Form.Control placeholder="First name" />
+                        
+                        
+                            <Form.Control placeholder="Last name" />
+                        
+                    </Form.Row>
+                </Form>
             </Container>
         </div>
     )
