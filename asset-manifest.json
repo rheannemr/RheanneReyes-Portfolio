@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/RheanneReyes-Portfolio/static/css/main.f881ca11.chunk.css",
+    "main.js": "/RheanneReyes-Portfolio/static/js/main.48466096.chunk.js",
+    "main.js.map": "/RheanneReyes-Portfolio/static/js/main.48466096.chunk.js.map",
+    "runtime-main.js": "/RheanneReyes-Portfolio/static/js/runtime-main.f3532b35.js",
+    "runtime-main.js.map": "/RheanneReyes-Portfolio/static/js/runtime-main.f3532b35.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/RheanneReyes-Portfolio/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.401af944.chunk.js": "/RheanneReyes-Portfolio/static/js/2.401af944.chunk.js",
+    "static/js/2.401af944.chunk.js.map": "/RheanneReyes-Portfolio/static/js/2.401af944.chunk.js.map",
+    "index.html": "/RheanneReyes-Portfolio/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/RheanneReyes-Portfolio/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.f881ca11.chunk.css.map": "/RheanneReyes-Portfolio/static/css/main.f881ca11.chunk.css.map",
+    "static/js/2.401af944.chunk.js.LICENSE.txt": "/RheanneReyes-Portfolio/static/js/2.401af944.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f3532b35.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.401af944.chunk.js",
+    "static/css/main.f881ca11.chunk.css",
+    "static/js/main.48466096.chunk.js"
+  ]
+}
