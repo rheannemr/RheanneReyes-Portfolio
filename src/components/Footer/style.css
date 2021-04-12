@@ -1,9 +1,17 @@
 .footer {
     margin-top: 30px;
-    left: 0;
-    bottom: 0;
+    height: 50px;
     width: 100%;
-    background-color: rgb(121, 121, 121);
+    background-color: rgba(0, 0, 0, 0.515);
     color: white;
     text-align: center;
   }
+
+.footer-icons {
+    margin-top: 10px;
+    color:rgb(240, 211, 115);
+}
+
+.footer-icons:hover {
+  transform:scale(1.1)
+}
