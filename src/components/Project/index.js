@@ -4,7 +4,7 @@ import "./style.css"
 
 function Project(props) {
     return (
-        <Card style={{ width: '18rem' }}>
+        <Card border="dark" style={{ width: '18rem' }}>
             <Card.Body>
             <Card.Title className="text-center">{props.children}</Card.Title>
                 <div class="photo">

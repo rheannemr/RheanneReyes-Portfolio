@@ -28,7 +28,7 @@ function Contact() {
                         </h1><br />
                     </Header>
                 </Row>
-                <Form>
+                <Form className="contact-form">
                     <Form.Group controlId="formFirstName">
                         <Form.Control type="name" placeholder="First Name" />
                     </Form.Group>

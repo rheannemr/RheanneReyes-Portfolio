@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Montserrat:wght@700&family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Montserrat&family=Train+One&display=swap');
 
 body {
   margin: 0;
@@ -67,6 +67,11 @@ p, .about-p {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: rgb(0, 0, 0);
+}
+
+.contact-form, .navbar {
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 @keyframes reveal {
