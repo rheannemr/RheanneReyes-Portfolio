@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Train+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-.text-center, .app-link {
+.text-center, .app-link, .card-p {
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
 }
@@ -33,12 +33,8 @@
   height: auto;
 }
 
-.card {
-  background-color: #d3d6db;
-}
-
 .app-link {
-  color: #be3144;
+  color: #ffffff;
 }
 
 .text {

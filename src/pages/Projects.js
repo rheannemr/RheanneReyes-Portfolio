@@ -5,7 +5,7 @@ import Row from "../components/Row";
 import Header from "../components/Header";
 import Navbar from "../components/Navbar";
 import Project from "../components/Project";
-import { CardColumns } from "react-bootstrap";
+import { CardDeck } from "react-bootstrap";
 import "./style.css";
 import Horiseon from "../assets/images/horiseon copy.png";
 import DailyPlanner from "../assets/images/dailyplanner copy.png";
@@ -22,9 +22,9 @@ function Projects(props) {
             <Hero>
                 <div class="heroheader">
                     <div class="content">
-                        <p>Welcome! My name is</p>
+                        <p class="header-p">Welcome! My name is</p>
                         <h1>RHEANNE REYES.</h1>
-                        <p>I am a Full Stack Web Developer.</p>
+                        <p class="header-p">I am a Full Stack Web Developer.</p>
                     </div>
                 </div>
             </Hero>
@@ -37,7 +37,7 @@ function Projects(props) {
                         </h1><br />
                     </Header>
                 </Row>
-                <CardColumns>
+                <CardDeck>
                     <Project
                         image={VirtualBar} src={props.VirtualBar} alt="Virtual Bar"
                         href={"https://github.com/joshrehanek/bar-trivia-simulator"}
@@ -53,7 +53,7 @@ function Projects(props) {
                         link={"https://the-grocery-list.herokuapp.com/"}
                         text="The Grocery list application will help any user upon all their grocery excursions. The user can simply log what they need to buy onto their list and once it's purchased, they will be able to move it to their fridge list. The user has the ability to move it back and forth for future grocery trips, and may also delete the item if it's no longer needed. On top of the grocery list, the user will be able to search up recipe ideas based on the ingredients they have/need."
                     >
-                        Grocery List - Your Everyday Helper
+                        Grocery List<br />Your Everyday Helper
                 </Project>
                     <Project
                         image={Horiseon} src={props.Horiseon} alt="Horiseon"
@@ -63,8 +63,8 @@ function Projects(props) {
                     >
                         Horiseon
                 </Project>
-                </CardColumns>
-                <CardColumns>
+                </CardDeck>
+                <CardDeck>
                     <Project
                         image={DailyPlanner} src={props.DailyPlanner} alt="Daily Planner"
                         href={"https://github.com/rheannemr/Daily-Schedule-Planner"}
@@ -91,7 +91,7 @@ function Projects(props) {
                     >
                         Note Taker
                 </Project>
-                </CardColumns>
+                </CardDeck>
             </Container>
         </div>
     )

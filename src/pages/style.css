@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Montserrat:wght@700&family=Train+One&display=swap');
 
 body {
   margin: 0;
@@ -14,6 +14,11 @@ body {
   justify-content: left;
   height: 100vh;
   width: 100vw;
+}
+
+.header-p {
+  font-family: 'Righteous', cursive;
+  font-size: 25px;
 }
 
 .heroheader {
@@ -42,15 +47,9 @@ body {
 
 h1 {
   font-family: 'Train One', cursive;
-  font-size: 90px;
+  font-size: 100px;
   line-height: 0.9;
   margin-bottom: 0px;
-  text-emphasis-color: white;
-}
-
-.about-p {
-  font-size: 15px;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .aboutheader {
@@ -63,7 +62,7 @@ h1 {
   animation: reveal 1s ease-in-out forwards;
 }
 
-p {
+p, .about-p {
   font-size: 15px;
   font-family: 'Montserrat', sans-serif;
   text-align: center;

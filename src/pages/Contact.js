@@ -13,9 +13,9 @@ function Contact() {
             <Hero>
                 <div class="heroheader">
                     <div class="content">
-                        <p>Welcome! My name is</p>
+                        <p class="header-p">Welcome! My name is</p>
                         <h1>RHEANNE REYES.</h1>
-                        <p>I am a Full Stack Web Developer.</p>
+                        <p class="header-p">I am a Full Stack Web Developer.</p>
                     </div>
                 </div>
             </Hero>

@@ -12,12 +12,12 @@ function Project(props) {
                     <div class="overlay">
                         <div class="text">
                             <Card.Link href={props.href} class="app-link" target='_blank'>Github Repository</Card.Link><br />
-                            <Card.Link href={props.link} class="app-link" target='_blank'>Deployed Application</Card.Link>
+                            <Card.Link href={props.link} class="app-link" target='_blank'>Deployed App</Card.Link>
                         </div>
                     </div>
                 </div>
                 <br />
-                <Card.Text>
+                <Card.Text class="card-p">
                     {props.text}
                 </Card.Text>
             </Card.Body>
