@@ -39,7 +39,7 @@ function Projects(props) {
                 </Row>
                 <CardColumns>
                     <Project
-                        image={VirtualBar} src={props.VirtualBar}
+                        image={VirtualBar} src={props.VirtualBar} alt="Virtual Bar"
                         href={"https://github.com/joshrehanek/bar-trivia-simulator"}
                         link={"https://joshrehanek.github.io/bar-trivia-simulator/"}
                         text="This is a virtual bar simulator that displays a Drink of the Moment card along with 5 classic recommended drinks from the developers. With a multiple choice trivia game where the user is asked 10 questions on numerous subjects.
@@ -48,15 +48,15 @@ function Projects(props) {
                         Getcha Fix Virtual Bar
                 </Project>
                     <Project
-                        image={GroceryList} src={props.GroceryList}
+                        image={GroceryList} src={props.GroceryList} alt="Grocery Helper"
                         href={"https://github.com/rheannemr/Grocery-list"}
                         link={"https://the-grocery-list.herokuapp.com/"}
                         text="The Grocery list application will help any user upon all their grocery excursions. The user can simply log what they need to buy onto their list and once it's purchased, they will be able to move it to their fridge list. The user has the ability to move it back and forth for future grocery trips, and may also delete the item if it's no longer needed. On top of the grocery list, the user will be able to search up recipe ideas based on the ingredients they have/need."
                     >
-                        GroceryList
+                        Grocery List - Your Everyday Helper
                 </Project>
                     <Project
-                        image={Horiseon} src={props.Horiseon}
+                        image={Horiseon} src={props.Horiseon} alt="Horiseon"
                         href={"https://github.com/rheannemr/Horiseon-Website"}
                         link={"https://rheannemr.github.io/Horiseon-Website/"}
                         text="Horiseon is a social solution service that advances business traffic through the internet. Horiseon uses search engine optimization (SEO) to improve the quantity and quality of website traffic from search engines. Additionally, Horiseon manages the business's online reputation and analytics for the consumers. With Horiseon, businesses can increase their search ranking and website traffic, with a decrease in advertising costs and work on the business's end."
@@ -66,7 +66,7 @@ function Projects(props) {
                 </CardColumns>
                 <CardColumns>
                     <Project
-                        image={DailyPlanner} src={props.DailyPlanner}
+                        image={DailyPlanner} src={props.DailyPlanner} alt="Daily Planner"
                         href={"https://github.com/rheannemr/Daily-Schedule-Planner"}
                         link={"https://rheannemr.github.io/Daily-Schedule-Planner/"}
                         text="This is a simple daily planner application that displays the hours of a single work day (9AM - 5PM) with the user's current time (using moment.js library). The user is able to enter notes into the textarea field and when hitting the 'Save' button, their notes are then saved to local storage by the hour. The past hours turn gray, the present/current hour will appear red, and all future hours of the day will appear green."
@@ -74,7 +74,7 @@ function Projects(props) {
                         Daily Planner
                 </Project>
                     <Project
-                        image={PasswordGenerator} src={props.PasswordGenerator}
+                        image={PasswordGenerator} src={props.PasswordGenerator} alt="Password Generator"
                         href={"https://github.com/rheannemr/Password-Generator"}
                         link={"https://rheannemr.github.io/Password-Generator/"}
                         text="This is an interactive application made with JavaScript. The user is able to generate a password between
@@ -84,7 +84,7 @@ function Projects(props) {
                         Password Generator
                 </Project>
                     <Project
-                        image={NoteTaker} src={props.NoteTaker}
+                        image={NoteTaker} src={props.NoteTaker} alt="Note Taker"
                         href={"https://github.com/rheannemr/Note-Taker"}
                         link={"https://work-notes-app.herokuapp.com/"}
                         text="The note taker application allows the user to organize their thoughts and keep track of their daily tasks with notes. The user creates a Note Title and adds the note information (see photos below for example) and is able to save it. When they either complete their task or the note is no longer needed, they are able to click the trash icon and it will be deleted."
