@@ -1,23 +1,29 @@
 {
   "files": {
-    "main.css": "/RheanneReyes-Portfolio/static/css/main.f881ca11.chunk.css",
-    "main.js": "/RheanneReyes-Portfolio/static/js/main.48466096.chunk.js",
-    "main.js.map": "/RheanneReyes-Portfolio/static/js/main.48466096.chunk.js.map",
+    "main.css": "/RheanneReyes-Portfolio/static/css/main.278ec641.chunk.css",
+    "main.js": "/RheanneReyes-Portfolio/static/js/main.c18d135d.chunk.js",
+    "main.js.map": "/RheanneReyes-Portfolio/static/js/main.c18d135d.chunk.js.map",
     "runtime-main.js": "/RheanneReyes-Portfolio/static/js/runtime-main.f3532b35.js",
     "runtime-main.js.map": "/RheanneReyes-Portfolio/static/js/runtime-main.f3532b35.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/RheanneReyes-Portfolio/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.401af944.chunk.js": "/RheanneReyes-Portfolio/static/js/2.401af944.chunk.js",
-    "static/js/2.401af944.chunk.js.map": "/RheanneReyes-Portfolio/static/js/2.401af944.chunk.js.map",
+    "static/js/2.6eddafed.chunk.js": "/RheanneReyes-Portfolio/static/js/2.6eddafed.chunk.js",
+    "static/js/2.6eddafed.chunk.js.map": "/RheanneReyes-Portfolio/static/js/2.6eddafed.chunk.js.map",
     "index.html": "/RheanneReyes-Portfolio/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/RheanneReyes-Portfolio/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.f881ca11.chunk.css.map": "/RheanneReyes-Portfolio/static/css/main.f881ca11.chunk.css.map",
-    "static/js/2.401af944.chunk.js.LICENSE.txt": "/RheanneReyes-Portfolio/static/js/2.401af944.chunk.js.LICENSE.txt"
+    "static/css/main.278ec641.chunk.css.map": "/RheanneReyes-Portfolio/static/css/main.278ec641.chunk.css.map",
+    "static/js/2.6eddafed.chunk.js.LICENSE.txt": "/RheanneReyes-Portfolio/static/js/2.6eddafed.chunk.js.LICENSE.txt",
+    "static/media/dailyplanner copy.752c98d5.png": "/RheanneReyes-Portfolio/static/media/dailyplanner copy.752c98d5.png",
+    "static/media/grocerylist copy.e99eeecf.png": "/RheanneReyes-Portfolio/static/media/grocerylist copy.e99eeecf.png",
+    "static/media/horiseon copy.8098e28d.png": "/RheanneReyes-Portfolio/static/media/horiseon copy.8098e28d.png",
+    "static/media/notesposted copy.285fea8f.png": "/RheanneReyes-Portfolio/static/media/notesposted copy.285fea8f.png",
+    "static/media/passwordgenerator copy.9d973bc4.png": "/RheanneReyes-Portfolio/static/media/passwordgenerator copy.9d973bc4.png",
+    "static/media/virtualbar copy.720f8a4f.png": "/RheanneReyes-Portfolio/static/media/virtualbar copy.720f8a4f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f3532b35.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.401af944.chunk.js",
-    "static/css/main.f881ca11.chunk.css",
-    "static/js/main.48466096.chunk.js"
+    "static/js/2.6eddafed.chunk.js",
+    "static/css/main.278ec641.chunk.css",
+    "static/js/main.c18d135d.chunk.js"
   ]
 }
